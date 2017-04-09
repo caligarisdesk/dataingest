@@ -1,0 +1,11 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      gradle clean build
+
+artifacts:
+  type: zip
+  files:
+    - build/libs/dataingest-service-0.1.0.jar
+    
